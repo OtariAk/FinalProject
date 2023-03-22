@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Validation of Coinmania Site" verbose="1" thread-count="1" parallel="tests">
+    <test name="Coinmania Login/Register">
+        <classes>
+            <class name="TestCases.LoginRegisterFunctionalities"/>
+        </classes>
+    </test>
+    <test name="Coinmania Buy/Sell">
+        <classes>
+            <class name="TestCases.BuySellFunctionalities"/>
+        </classes>
+    </test>
+    <test name="Coinmania Help and Preev">
+        <classes>
+            <class name="TestCases.HelpPreevFunctionalities"/>
+        </classes>
+    </test>
+
+</suite>
